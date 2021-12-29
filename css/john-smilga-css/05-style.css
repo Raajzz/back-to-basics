@@ -1,0 +1,37 @@
+/* USIING SELECTORS */
+
+/* p{
+    color: blue;
+}
+
+h1{
+    color: green;
+}
+
+h2{
+    color: red;
+} */
+
+/* GROUPING SELECTORS */
+
+/* h1, h2, p{
+    color: blue;
+} */
+
+/* USING ID */
+
+/* #title, #content{
+    color: green;
+    background-color:black;
+}
+
+#footer{
+    color: red;
+    background-color: gray;
+} */
+
+/*   */
+
+.redd{
+    color: green;
+}
