@@ -47,3 +47,38 @@
 # SPECIFICITY
 
     ID > CLASS > NAME-SELECTOR > *
+
+# COLORS
+
+- background: -> can set both color and image
+- background-color: -> set color
+
+## RGBA
+- RGBA where A gives you transparency.
+- RGBA can be used to overlay text over images and allows improved readability of the text.
+
+## HEX 
+- color: \#(0-f)(0-f)(0-f)(0-f)(0-f)(0-f);
+- also,
+    > color: #d3d; is literally color: #dd33dd; 
+
+    > Which explains why #fff gives us white and #000 gives us black and #f00 gives us red.
+
+# UNITS
+
+## PIXELS
+- Absolute, almost like a dot
+
+## PERCENTAGES
+- Relative, depends on the parent element. If the parent element does not have a height, then no matter the child percentag me, the child won't be displayed (because it's a fraction of 0, which is 0).
+
+## EM
+- em changes with the base value of the parent (or browser if parent does not specify base value)
+- By default, as part of body tag, it's base value is 16px
+- 1 em = 16px | MEDIUM of the browser, 
+              | if VERY LARGE then 1 em will be larger
+- If parent changes, 1 em will be based on the parent size
+
+## REM
+- ROOT EM | Where root is html | Can change that using html{ font-size:...;}
+- Base Value of Root 16px
