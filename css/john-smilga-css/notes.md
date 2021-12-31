@@ -82,3 +82,19 @@
 ## REM
 - ROOT EM | Where root is html | Can change that using html{ font-size:...;}
 - Base Value of Root 16px
+
+## VH and VW
+- Relative
+- Depends on the screen
+- pro-tip | issue as vw is calculating the scrollbar too in windows, need to figure out something about it.
+            overflow:hidden;
+
+# USER AGENT STYLES
+- Browser styles
+
+# CALC
+- Used to calculate stuff
+- Can mix and match values
+
+# height:auto
+- By default Height is auto
