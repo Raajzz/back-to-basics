@@ -96,5 +96,29 @@
 - Used to calculate stuff
 - Can mix and match values
 
-# height:auto
+# OVERFLOW
+
+## height:auto
 - By default Height is auto
+
+## min-height
+- the minimum height the element should have will be specified in the min-height, everything higher will be auto. (atleast)
+
+## max-height 
+- the maximum height can be specified, where the minimum height is 0 and the max we can go is the value specified. (atmost)
+
+## OVERFLOW
+- overflow property determines what happens on our page when the content overflows.
+
+# FONTS
+
+## FONT FAMILY
+- Inorder to prevent font inavailabily, it's better to use a font-stack, that is, a buncha fonts together. The first font will be used if it's present else it'll fallback to the other fonts.
+- Basic fonts in browsers -> serif, sans-serif, cursive, fantasy, monospace
+- Be wary of load time.
+- Google Fonts
+
+## FONT STYLE
+- Italic - Uses kinda a different style altogether
+- Oblique - Just slants stuff
+- Normal - use when you have a bunch of elements which are of one style and you want to exhibit the normal style to THAT particular element.

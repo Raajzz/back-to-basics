@@ -1,0 +1,28 @@
+img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.banner{
+    margin: 20px;
+    width: 80vw;
+    height: 70vh;
+    border: 5px solid green;
+    position: relative;
+}
+
+.one{
+    top: 0;
+    left: 0;
+}
+
+.two{
+    top: 10%;
+    left: 10%;
+}
+
+.three{
+    top: 20%;
+    left: 20%;
+}

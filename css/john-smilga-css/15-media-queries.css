@@ -1,0 +1,78 @@
+body{
+    background: yellow;
+}
+
+.banner{
+    background:blue;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 10000px){
+    body{
+        background: #7A5197;
+    }
+    .banner{
+        background: #F47F6B;
+    }
+    h1{
+        color:#F5C63C;
+    }
+}
+
+
+
+@media screen and (max-width:776px) {
+    body{
+        background: blue;
+    }
+    .banner{
+        background: green;
+    }
+    h1{
+        color: gold;
+    }
+}
+
+@media screen and (max-width:576px) {
+    body{
+        background: red;
+    }
+    .banner{
+        background: yellow;
+    }
+    h1{
+        color: black;
+    }
+}
+
+
+/* @media screen and (min-width:576px) {
+    body{
+        background: red;
+    }
+    .banner{
+        background: yellow;
+    }
+    h1{
+        color: black;
+    }
+}
+
+
+@media screen and (min-width:776px) {
+    body{
+        background: blue;
+    }
+    .banner{
+        background: green;
+    }
+    h1{
+        color: gold;
+    }
+} */
