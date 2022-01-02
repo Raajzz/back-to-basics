@@ -1,0 +1,19 @@
+.links{
+    margin: 3rem;
+}
+
+a{
+    background: #689f3f;
+    text-decoration: none;
+    padding: 1.2rem 1.5rem;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+#one{
+    border: 0.2rem solid black;
+}
+
+#two{
+    outline-width: 0.2 rem;
+}

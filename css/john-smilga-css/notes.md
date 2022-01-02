@@ -122,3 +122,73 @@
 - Italic - Uses kinda a different style altogether
 - Oblique - Just slants stuff
 - Normal - use when you have a bunch of elements which are of one style and you want to exhibit the normal style to THAT particular element.
+
+# BOX MODEL
+
+<div style="text-align:center;">
+    <img src='https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif' style="width:300px;"/>
+</div>
+
+## SINGLE VALUE 
+- Applied on all 4 sides
+
+## TWO VALUES
+- TOP\BOTTOM LEFT\RIGHT
+
+## FOUR VALUES
+- TOP RIGHT BOTTOM LEFT 
+
+## BORDER
+- border: border-width border-style border-color;
+- border-<top/bottom/left/right>: border-width border-style border-color
+
+## BORDER RADIUS
+- border-radius: <any-unit>;
+
+## NEGATIVE MARGIN 
+- Will start to overlap with other elements if the margin reduces. To move closer to other elements.
+- **DIFFERENT FROM Z-INDEX**
+
+## OUTLINE AND OUTLINE-OFFSET
+- To create borders that can either span outward or inward with the help of outline-offset property
+
+# DISPLAY PROPERTY
+
+## BLOCK
+- Starts a new line
+- Spans acorss the screen
+- Browser respects width/heigh, top/bottom margin.
+
+## INLINE
+- No new line
+- Spans only the content
+- Browser does not respect width/heigh, top/bottom margin.
+
+## INLINE-BLOCK
+- No New Line
+- Browser respects width/heigh, top/bottom margin.
+
+## CENTERING INLINE ELEMENT
+- Work with the parent
+    <pre>
+        parent{
+            text-align:center;
+        }
+    </pre>
+- this centers the child inline tag
+
+## CENTERING BLOCK ELEMENT
+- Work with the element
+    <pre>
+        
+    </pre>
+
+# BOX-SIZING
+
+## BORDER-BOX
+- When you want the padding to partition the width and height of a box.
+- Instead of element getting bigger the padding is applied inside the element.
+
+## CONTENT-BOX
+- When you want the padding to be added to the width and height of a box.
+- Element gets bigger.

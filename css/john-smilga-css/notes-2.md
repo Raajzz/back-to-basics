@@ -21,3 +21,7 @@
 
 - Cannot be applied to position:static
 - All elements have default 0, you can set it and manipulate it accordingly.
+
+# PSEUDO ELEMENTS
+
+- What's inline is the content itself (?)

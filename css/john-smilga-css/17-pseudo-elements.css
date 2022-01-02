@@ -1,0 +1,31 @@
+/* EXAMPLE */
+
+/* p::before{
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    color: red;
+    font-weight: bold;
+    display: block;
+    background: black;
+}
+
+p::after{
+    content: "after";
+    font-size: 3rem;
+    color: red;
+    font-weight: bold;
+    display: block;
+    background: black;
+} */
+
+div{
+    width: 70vw;
+    border: 3px solid red;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
