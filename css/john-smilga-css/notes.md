@@ -183,6 +183,8 @@
         
     </pre>
 
+
+
 # BOX-SIZING
 
 ## BORDER-BOX
@@ -192,3 +194,56 @@
 ## CONTENT-BOX
 - When you want the padding to be added to the width and height of a box.
 - Element gets bigger.
+
+# VISIBILITY
+
+## display:none
+- Remove from the flow. Hide the element and collapse the space.
+
+## visibility:hidden and opacity:0
+- Hides the element but we preserve the space it occupied
+
+# background
+
+## background-repeat: repeat;
+- Repeat the images, default
+- Free space gets created
+## background-repeat: no-repeat;
+- Don't repeat
+## background-repeat: repeat-x;
+- Repeat on x dir
+## background-repeat: repeat-y;
+- Repeat on y dir
+## background-repeat: space;
+- gives space while repeating, give space instead of cutting off the images | Make it round
+## background-repeat: round;
+- repeat an image if there's space left, otherwise stretch the original image until you have space left to insert another image.
+
+## background-size:cover;
+- Scales the image as large as possible to fill the container, stretching the image if necessary. If the proportions of the image differ from the element, it is cropped either vertically or horizontally so that no empty space remains. 
+
+## background-size:contain;
+- It just places the image inside the div and then it repeats the image if no-repeat is not set.
+
+## background-position:
+- This is used to postion the image.
+
+## background-position:center; 
+- Centers the image.
+
+## background-position:persentage-x percentage-y;
+- consider the whole canvas range from 0 to 100 on x and y. Now, 50% 50% centers top adn bottom.  
+
+## background-attatchment:fixed;
+- the image will be fixed while everything else moves when scrolled
+
+## background-attatchment:scroll;
+- the image moves when scrolled
+
+# LINEAR GRADIENTS
+
+1. Two main parameters, the first one is direction and from the second you can add as many colors as you want.
+2. First parameter is the direction, it's *to bottom* if nothing is provided. Can provide degrees or combine keywords, *to top left, to bottom right*.
+3. Can also provided degrees like *180deg, 270deg, 0deg*.
+4. Use RGBA to include opacity.
+5. To determine when the process of transition to start, provided percentages.

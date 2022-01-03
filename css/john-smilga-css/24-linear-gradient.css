@@ -1,0 +1,17 @@
+div{
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+.one{
+  background: linear-gradient(to bottom,#f00, #0f0, #00f);
+}
+
+.two{
+  background: linear-gradient(to bottom right,#f00, #0f0, #00f);
+}
+
+.three{
+  background: linear-gradient(to top left,#f00, #0f0, #00f);
+}
