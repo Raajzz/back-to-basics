@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+div{
+  height:33.33%;
+  width:33.33%;
+  overflow:hidden;
+   float:left;
+}
+
+.one{
+  background:red;
+}
+
+.two{
+  background:green;
+}
+
+.three{
+  background:blue;
+}
+
+.four{
+  background:yellow;
+  clear:left;
+}
+
+.five{
+  background:brown;
+}
+
+h1{
+  clear:both;
+}

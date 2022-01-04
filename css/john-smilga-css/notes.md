@@ -257,3 +257,28 @@
 - size (size:cover)
 - repeat (repeat:no-repeat)
 - attachment (attachment:fixed)
+
+# FLOAT
+
+- Makes anything that comes after the image floats around the image that had float:left or float:right
+
+- Literally the primitive way of creating columns.
+
+## [COLLAPSED MARGINS](https://stackoverflow.com/questions/8509431/margin-not-adding-on-elements/8509489)
+
+# POSITION
+
+## ABSOLUTE
+- Closest parent with position:relative; or with regards to the canvas (body)
+- Browser will fill up the left space.
+- Even if you did not add any top, right, bottom or left, its still gonna be filled up by the browser.
+- Analogically, you'll position as if it's coordinates
+
+## RELATIVE
+- Analogically, you'll position as if it's margins
+
+## FIXED
+- Forever, Fixed. To position this use position:absolute
+
+## STICKY
+- It's relative in the beginning, but as we reach the coordinates that we has specified it toggles to fixed.

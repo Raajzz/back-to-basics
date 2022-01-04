@@ -1,0 +1,31 @@
+.container{
+  background: yellow;
+  border: 5px solid red;
+}
+
+.one{
+  /* position: relative; */
+  /* top: 200px; */
+  background: blue;
+  margin: 10px 0;
+  color: white;
+}
+
+.two{
+  /* position: relative; */
+  background: green;
+  margin: 10px 0;
+  color: white;
+}
+
+.special{
+  background: pink;
+  color: black;
+  /* position: absolute; */
+  /* top: 0px;
+  left: 0px; */
+}
+
+/* 
+https://stackoverflow.com/questions/8509431/margin-not-adding-on-elements/8509489
+*/
