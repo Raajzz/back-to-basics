@@ -247,3 +247,13 @@
 3. Can also provided degrees like *180deg, 270deg, 0deg*.
 4. Use RGBA to include opacity.
 5. To determine when the process of transition to start, provided percentages.
+
+# BACKGROUND-SHORTHAND
+
+- LUPSRA
+- Linear Gradient
+- Url of the image
+- position (position:center)
+- size (size:cover)
+- repeat (repeat:no-repeat)
+- attachment (attachment:fixed)

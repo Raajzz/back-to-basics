@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div{
+  min-height: 100vh;
+  border: 3px solid red;
+  height: 300px;
+  color: white;
+  display: flex;
+  /* CENTER HORIZONTALLY */
+  justify-content: center;
+  /* CENTER VERTICALLY */
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  z-index: 5;
+}
+
+/* SHORTHAND */
+
+.big-image{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 16%, rgba(99,26,215,0.3) 91%),
+  url("./img/large.jpg") center/cover no-repeat fixed ; 
+}
+
+.small-image{
+  background: rgb(230,178,2);
+  background: linear-gradient(90deg, rgba(230,178,2,0.3) 16%, rgba(0,212,255,0.3) 91%), url("./img/medium.jpg") center/cover fixed no-repeat;
+}
+
+.folder-image{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 16%, rgba(99,26,215,0.3) 91%), 
+  url("./img/large.jpg") center/cover no-repeat fixed;
+}
+
+
+
+/* .big-image{
+  background: url("./img/large.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.small-image{
+  background:url("./img/medium.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.folder-image{
+  background: url("./img/large.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+} */
+
+/* 
+
+background: rgb(230,178,2);
+background: -moz-linear-gradient(90deg, rgba(230,178,2,1) 16%, rgba(0,212,255,1) 91%);
+background: -webkit-linear-gradient(90deg, rgba(230,178,2,1) 16%, rgba(0,212,255,1) 91%);
+background: linear-gradient(90deg, rgba(230,178,2,1) 16%, rgba(0,212,255,1) 91%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e6b202",endColorstr="#00d4ff",GradientType=1); 
+
+
+*/
+
+/* 
+
+ background: rgb(0,0,0);
+background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 16%, rgba(99,26,215,1) 91%);
+background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 16%, rgba(99,26,215,1) 91%);
+background: linear-gradient(90deg, rgba(0,0,0,1) 16%, rgba(99,26,215,1) 91%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#631ad7",GradientType=1); 
+
+*/
