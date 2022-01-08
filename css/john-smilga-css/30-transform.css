@@ -1,0 +1,25 @@
+html{
+  font-size: 1px;
+}
+
+div{
+  width: 150rem;
+  height: 150rem;
+}
+
+
+.one{
+  background: red;
+  transform: translate(50rem, 50rem);
+}
+.two{
+  background: green;
+  transform: translate(-75rem, -75rem);
+}
+
+
+.three{
+  background: blue;
+  transform: translate(-50rem,150rem);
+  /* transform: translateX(-150rem); */
+}

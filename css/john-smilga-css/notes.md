@@ -247,7 +247,7 @@
 3. Can also provided degrees like *180deg, 270deg, 0deg*.
 4. Use RGBA to include opacity.
 5. To determine when the process of transition to start, provided percentages.
-
+  
 # BACKGROUND-SHORTHAND
 
 - LUPSRA
@@ -282,3 +282,29 @@
 
 ## STICKY
 - It's relative in the beginning, but as we reach the coordinates that we has specified it toggles to fixed.
+
+# SELECTORS
+
+- .selector ">" selector2 => only the direct children of selectors will be picked
+- .selector selector2 => every descendent there exist within the selector will be picked
+
+## SPECIAL SELECTORS
+
+- p::first-line { ... } => add styles to the first element
+- p::first-letter { ... } => add styles to the first letter
+
+# PSEUDO-CLASSES
+
+## :hover
+- specifiy the property when you hover over.
+
+# :root
+- Used to specify or change something at the root leve
+- similar to html{...}
+
+# transoform
+
+## translate
+
+- It is used to move (translate) the elements based on the value provided. Think of the value provided as cooridinates. And the top right corner is (0,0) and the positive x directionis from the left to the right and the positive y direction is from top to bottom. Adding +XXpx will move the element XXpx size towards right. Where -XXpx move the element XXpx size towards left.
+- The overlap is based on the position of div. The most recent div will be on top.

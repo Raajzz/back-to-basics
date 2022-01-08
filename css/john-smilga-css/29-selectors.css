@@ -1,0 +1,38 @@
+/* #heading-id{
+  color: green;
+}
+
+.heading-class{
+  color: red;
+} */
+
+/* CHILD AND DESCENDENT SELECTORS */
+
+.selector > .selector2{
+  color: green;
+}
+.selector .selector2{
+  color: red;
+}
+div{
+  color: blue;
+}
+
+/* first-letter and first-line */
+
+#style-h1{
+  font-size: 10px;
+}
+
+#style-h1::first-letter{
+  font-size: 25px;
+}
+
+#style-h1::first-line{
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 255, 0);
+}
