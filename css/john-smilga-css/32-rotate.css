@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+}
+
+div{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+ 
+
+.one{
+  background: red;
+  transform: skew(-30deg);
+  /* transform: ; */
+}
+.two{
+  background: linear-gradient(90deg, rgb(0, 255, 128) 16%, rgba(99,26,215,1) 91%); 
+  transform: skew(-30deg);
+}
+.three{
+  background: linear-gradient(90deg, rgba(255,0,0,1) 16%, rgba(99,26,215,1) 91%); 
+  transform: skewY(30deg);
+}

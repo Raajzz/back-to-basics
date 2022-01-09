@@ -308,3 +308,51 @@
 
 - It is used to move (translate) the elements based on the value provided. Think of the value provided as cooridinates. And the top right corner is (0,0) and the positive x directionis from the left to the right and the positive y direction is from top to bottom. Adding +XXpx will move the element XXpx size towards right. Where -XXpx move the element XXpx size towards left.
 - The overlap is based on the position of div. The most recent div will be on top.
+- The element will still be a part of the document flow.
+
+## SCALE
+- Increases the size of the elmenent on X-Axis or Y-Axis or both. Note there's no one direction scale, scaleX(1.5) will increase in both left and right directions. saleY(0.5) will decrease in both top and bottom directions.
+
+## rotateX(Y)(Z)
+- Happening in 3-D that's why you can't see it properly.
+- Clockwise - positive angle
+
+### rotateX()
+- Will decrease the top and bottom as it's rotating along the horizontal x axis
+
+### rotateY()
+- Will decrease left and right as it's rotating along the vertical y axis
+
+## skew(X)(Y)()
+
+- skew(single_value) -> skews along the x-axis
+- skew(first_value, second_value) -> skews along the x-axis and the y-axis
+- Shift direction is based on the way angles work (positive -> anticlockwise)
+
+### SKEWING ALONG THE X AXIS
+- Means that, the basement (Bottom) will stay the same rather everything else will be dragged to one side.
+
+### SKEWING ALONG THE Y AXIS
+- Means that, the basement will stay the same rather everything else will be dragged to one side.
+
+# transition
+- You can't do a linear-gradient transition, for that you shall use a psuedo element like :after or an overlay div that's absolute first with opacity-0 and then becomes opacity-100 once we hover.
+
+## SHORTHAND for transition
+
+- transition: property duration delay, property duration delay;
+- transition: all duration delay; -> all for every property applied
+
+# trasition type
+
+- ease -> default <br/>
+  ease -> slow start - fast - slow end
+  starts faster than ease-in-out and ends sligtly slower than ease-in-out
+
+- linear -> same speed - start to end
+
+- ease-in -> slow start
+
+- ease-out -> slow end
+
+- ease-in-out -> slow start, fast, slow end
