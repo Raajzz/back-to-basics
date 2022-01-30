@@ -1,3 +1,10 @@
+/* WRAP */
+
+/* THE LAST GUY WILL COME DOWN */
+/* flex-wrap: wrap; */
+/* THE FIRST GUY WILL COME DOWN */
+/* flex-wrap: wrap-reverse; */
+
 *{
   font-family: verdana;
   margin: 0;
@@ -14,13 +21,22 @@ body{
 }
 
 .flex-container{
+  
   display: flex;
   background: #fff;
+  flex-wrap: wrap;
+  /* moving up will start in the beginning */
+  flex-wrap: wrap-reverse;
+  /* moving up will start in the end */
 }
-
+ 
 .box{
   height: 100px;
-  min-width: 200px
+  min-width: 300px;
+  /* AFTER REACHING THE MINIMUM WIDTH, IF WE HAD 
+  APPLIED flex-wrap, IT'S GOING TO WRAP TO THE 
+  NEXT LINE */
+  flex-grow: 1;
 }
 
 .one{
@@ -34,4 +50,3 @@ body{
 .three{
   background: blue;
 }
-
