@@ -12,7 +12,7 @@ console.log(path.basename(filePath));
 
 console.log(path.join(__dirname, "content", "subfolder", "test.txt"));
 
-// path.resolve()
+// path.resoblve()
 // if resolve() finds '/' it's going to consider it as the root
 // and after that it tries to construct the absolute path and see 
 // if it works
@@ -24,4 +24,4 @@ console.log(path.resolve("/content", "/subfolder", "/test.txt"));
 console.log(path.resolve("content", "/subfolder", "test.txt"));
 
 // since no root is appeared the directory, the root directory of app.js D:/.....nodejs will be it's parent directory
-console.log(path.resolve("content", "subfolder", "test.txt"));
+console.log(path.resolve(__dirname,"/content", "subfolder", "test.txt"));
