@@ -40,9 +40,9 @@ body{
     justify-content:end;
     justify-content: start;
     justify-content: center;
-    justify-content: space-between;
-    justify-content: space-evenly;
-    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
     /* end -> pushes stuff to the end */
     /* space-around -> spreads stuff equally thoroughout the screen so they could occupy the whole line */
   }

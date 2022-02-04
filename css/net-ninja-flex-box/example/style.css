@@ -1,0 +1,73 @@
+*{
+  font-family: verdana;
+  margin: 0;
+}
+
+body{
+  background: #eee;
+  color: #333;
+}
+/* menu base styles */
+
+nav{
+  background: #333;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover{
+  background-color: #555;
+}
+
+nav ul{
+  display: flex;
+}
+
+li{
+  flex: 1 1 0;
+}
+
+
+/* social menu base styles */
+
+
+/* grid vs flex base styles */
+
+
+
+/* flex styles */
+/* 
+nav ul.social li{
+  flex: 1 1 0;
+}
+
+nav ul.social{
+  flex: 1 1 0;
+  display: flex;
+} */
+
+/* @media screen and (min-width: 768px){ */
+
+    
+/* nav{
+  display: flex;
+  justify-content: space-around;
+} */
+  
+/* ul.social{
+  margin: 0;
+}
+    
+} 
+end media 768 */
