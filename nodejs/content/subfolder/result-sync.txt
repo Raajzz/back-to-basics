@@ -1,1 +1,1 @@
-The combination of the two files Hello, this is first text file. Hello, this is the second file.The combination of the two files Hello, this is first text file. Hello, this is the second file.
+first text file second text file
