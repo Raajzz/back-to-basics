@@ -10,8 +10,6 @@ sayHi(fritz)
 sayHi(firstName)
 sayHi(secondName)
 
-console.log();
-
 sayWelcome(fritz)
 sayWelcome(firstName)
 sayWelcome(secondName)
