@@ -47,45 +47,8 @@ Promise.all([firstPromise, secondPromise, thirdPromise, fourthPromise])
   })
   .catch((err) => console.log(err));
 
-// getText("./content/first.txt")
-//   .then((dataFirst) => {
-//     getText("./content/subfolder/second.txt")
-//       .then((dataSecond) => {
-//         getText("./content/subfolder/third.txt")
-//         .then((dataThird)=>{
-//           getText("./content/subfolder/fourth.txt")
-//           .then((dataFourth)=>{
-//               // gonna stop here, because it's getting tedious
-//               return putText(
-//                 "./content/subfolder/result-sync.txt",
-//                 `${dataFirst} ${dataSecond} ${dataThird} ${dataFourth}`
-//               );
-//           })
-//           .catch(err=>console.log(err))
-//         })
-//         .catch(err=>console.log(err))
-//       })
-//       .catch((err) => console.log(err));
-//   })
-//   .then((result) => {
-//     console.log("Huh");
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });
-
 /*
-
-  */
-
-/*
-So, I finally started studying promises, I have a doubt regarding a scenario where I would be reading from 5 files (using nodejs, although it isn't that complicated) and writing to a 6th file. I have a function for reading from a file and I have another function for writing to a file.
-
-Here's my code, https://pastebin.com/wAX8457D
-
-This is the code for reading from 2 files and writing to a third file, the problem is, if I were to go for that 5 files issue, I'll end up with this,
-
-```js
+Promise Hell, Mitigated by Promise.all()
 getText("./content/first.txt")
   .then((dataFirst) => {
     getText("./content/subfolder/second.txt")
@@ -112,6 +75,5 @@ getText("./content/first.txt")
   .catch((err) => {
     console.log(err);
   });
-```
-Am I in Promise Hell?
+
 */
